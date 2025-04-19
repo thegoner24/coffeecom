@@ -55,7 +55,7 @@ This is the frontend for the CoffeeCom e-commerce application, built using Next.
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anojumisa/FSSE_JAN24_GroupF_GFP.git
+   git clone https://github.com/thegoner24/coffeecom.git
    cd coffeecom
    ```
 2. Install dependencies:
