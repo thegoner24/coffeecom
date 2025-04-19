@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -11,10 +12,10 @@ export default function Login() {
           <button className="bg-[#3e7c3a] text-white rounded px-4 py-2 font-semibold hover:bg-[#315e2e] transition" type="submit">Sign In</button>
         </form>
         <div className="text-sm mt-4 text-center">
-          New to CoffeeCom? <a href="/register" className="text-[#3e7c3a] hover:underline">Create an account</a>
+          New to CoffeeCom? <Link href="/register" className="text-[#3e7c3a] hover:underline">Create an account</Link>
         </div>
         <div className="text-sm mt-2 text-center">
-          <a href="/" className="text-[#a67c52] hover:underline">Back to Home</a>
+          <Link href="/" className="text-[#a67c52] hover:underline">Back to Home</Link>
         </div>
       </div>
     </div>

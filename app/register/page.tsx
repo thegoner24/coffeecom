@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Register() {
   return (
@@ -12,10 +13,10 @@ export default function Register() {
           <button className="bg-[#3e7c3a] text-white rounded px-4 py-2 font-semibold hover:bg-[#315e2e] transition" type="submit">Sign Up</button>
         </form>
         <div className="text-sm mt-4 text-center">
-          Already have an account? <a href="/login" className="text-[#3e7c3a] hover:underline">Sign in</a>
+          Already have an account? <Link href="/login" className="text-[#3e7c3a] hover:underline">Sign in</Link>
         </div>
         <div className="text-sm mt-2 text-center">
-          <a href="/" className="text-[#a67c52] hover:underline">Back to Home</a>
+          <Link href="/" className="text-[#a67c52] hover:underline">Back to Home</Link>
         </div>
       </div>
     </div>
