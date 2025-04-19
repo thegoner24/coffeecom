@@ -48,6 +48,11 @@ This is the frontend for the CoffeeCom e-commerce application, built using Next.
 
 ---
 
+## Deployment
+The live CoffeeCom app is available at: [Click Here!](https://coffeecom-mauve.vercel.app/)
+
+---
+
 ## Installation
 ### Prerequisites
 - Node.js (v14 or higher)
